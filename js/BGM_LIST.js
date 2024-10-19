@@ -17,5 +17,6 @@ var BGM_list = {
     16: "Shooting_Stars.m4a",
     17: "Future_Bossa.m4a",
     18: "Midsummer_cat.m4a",
-    19: "Welcome_School.m4a"
+    19: "Welcome_School.m4a",
+    20: "恋愛サーキュレーション.wav"
 };
