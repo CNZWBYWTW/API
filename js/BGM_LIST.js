@@ -18,5 +18,6 @@ var BGM_list = {
     17: "Future_Bossa.m4a",
     18: "Midsummer_cat.m4a",
     19: "Welcome_School.m4a",
-    20: "恋愛サーキュレーション.wav"
+    20: "恋愛サーキュレーション.wav",
+    21: "恋愛サーキュレーション-AI-天童爱丽丝.mp3"
 };
