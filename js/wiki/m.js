@@ -1,0 +1,1 @@
+document.querySelector('#searchIcon').classList.remove('cdx-button--icon-only');
