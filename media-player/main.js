@@ -1,3 +1,7 @@
+/*
+ *Loading CSS File
+ */
+loadCSS('https://api.cnzw.us.kg/media-player/main.css');
 /**
  * @license
  * Video.js 8.16.1 <http://videojs.com/>
