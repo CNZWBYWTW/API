@@ -1,6 +1,13 @@
 /*
  *Loading CSS File
  */
+function loadCSS(href){
+  var cssLink = document.createElement("link");
+  cssLink.rel = "stylesheet";
+  cssLink.type = "text/css";
+  cssLink.href = href;
+  document.getElementsByTagName("head")[0].appendChild(cssLink);
+}
 loadCSS('https://api.cnzw.us.kg/media-player/main.css');
 /**
  * @license
