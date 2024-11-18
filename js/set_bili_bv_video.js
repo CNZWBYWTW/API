@@ -10,8 +10,7 @@ window.onload = function () {
             fetch(`https://api.dyqvideo.com/download/url/get`, {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json",
-                    "Origin": "https://bilibili.dyqvideo.com"
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
                     "url": `https://www.bilibili.com/video/${bili_bv_list[bili_bv_list_m].getAttribute('data-bili-bv')}`,
