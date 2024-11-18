@@ -4,9 +4,6 @@ window.onload = function () {
     setbilivideourl();
     function setbilivideourl() {
         if (bili_id_list_m < bili_id_list.length) {
-            if (bili_id_list[bili_id_list_m].getAttribute('data-bili-p') == null) {
-                bili_id_list[bili_id_list_m].setAttribute('data-bili-p', 1);
-            }
             fetch(`https://api.dyqvideo.com/download/url/get`, {
                 method: "POST",
                 headers: {
