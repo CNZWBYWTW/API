@@ -19,7 +19,7 @@ window.onload = function () {
                     bili_id_url = CNZW['data']['downloadUrl'];
                     bili_id_list[bili_id_list_m].innerHTML = `<source src="${CNZW['data']['downloadUrl']}">`;
                     bili_id_list[bili_id_list_m].setAttribute('src', CNZW['data']['downloadUrl']);
-                    bili_id_list_m += 1;
+                    bili_id_list_m++;
                     setbilivideourl();
                 })
         }
