@@ -1,4 +1,4 @@
-fetch('http://ip-api.com/json/')
+fetch('//ip-api.com:80/json/')
     .then(response => response.json())
     .then(IP_INFO => {
         if(innerWidth / innerHeight > 1.2){
