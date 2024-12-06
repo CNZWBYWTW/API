@@ -1,4 +1,4 @@
-fetch('https://host-1.cnzw.us.kg/api/ip/')
+fetch('https://f27-preview.runhosting.com/host-1.cnzw.us.kg/api/ip/')
     .then(response => response.json())
     .then(IP_INFO => {
         if(innerWidth / innerHeight > 1.2){
