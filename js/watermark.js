@@ -5,7 +5,7 @@ fetch('https://f27-preview.runhosting.com/host-1.cnzw.us.kg/api/ip/')
             font_size = 0.5;
             font_p = 0.05;
         }else{
-            font_size = 0.5;
+            font_size = 1.0;
             font_p = 0.03;
         }
         CNZW_Watermark_Code = `data:image/svg+xml;charset=UTF-8,<svg role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 14' xml:space='preserve' width='300' height='100'><title>WaterMark by CNZW</title><text font-size='${font_size}px' fill='rgba(0, 0, 0, ${font_p})' stroke-width='0.01px' stroke='rgba(255, 255, 255, 0.03)'><tspan dx='0' dy='0.5'>IP: ${IP_INFO['ip']}</tspan><tspan dx='0' dy='0.6'>Host: ${location.host}</tspan><tspan dx='0' dy='0.6'>Time: ${new Date().toUTCString()}</tspan></text></svg>`;
