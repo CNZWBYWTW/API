@@ -1855,6 +1855,7 @@ function jscw(params) {
 
 } // class jscw
 function cw(code) {
+    document.querySelector("#cw_player").style = "display: none;";
     let m = new jscw();
     m.setWpm(25);
     m.setEff(0);
