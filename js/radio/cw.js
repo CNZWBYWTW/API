@@ -1855,12 +1855,12 @@ function jscw(params) {
 
 } // class jscw
 function cw(code) {
+    document.querySelector("script[src='https://api.cnzw.us.kg/js/radio/cw.js']").id = "cw_player";
     let m = new jscw();
     m.setWpm(25);
     m.setEff(0);
     m.setFreq(600);
     m.setText(code);
     m.renderPlayer('cw_player', m);
-    document.querySelector("#cw_player").style = "display: none;";
     document.querySelector("button[title='Play / Pause']").click();
 }
