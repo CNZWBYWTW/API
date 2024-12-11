@@ -1862,5 +1862,6 @@ function cw(code) {
     m.setText(code);
     m.renderPlayer('cw_player', m);
     document.querySelector("#cw_player").style = "display: none;";
+    document.querySelector("img[title='Stop']").click();
     document.querySelector("button[title='Play / Pause']").click();
 }
